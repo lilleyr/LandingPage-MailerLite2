@@ -1,0 +1,158 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.masthead {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url('img/team.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.send-button{
+background: #2D8CFF;
+width:100%;
+font-weight: 600;
+color:#fff;
+padding: 8px 25px;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+.g-button{
+color: #fff !important;
+border: 1px solid #EA4335;
+background: #ea4335 !important;
+width:100%;
+font-weight: 600;
+color:#fff;
+padding: 8px 25px;
+}
+.my-input{
+box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+cursor: text;
+padding: 8px 10px;
+transition: border .1s linear;
+}
+ 
+.header-title{
+margin: 3rem 0;
+}
+h1{
+font-family: 'ProximaNova', Arial, sans-serif;
+text-align: left;
+font-size: 34px;
+line-height: 40px;
+font-weight: 600;
+color:#4c5357;
+}
+h2{
+font-family: 'ProximaNova', Arial, sans-serif;	 
+text-align: left;
+color: #4c5357;
+font-size: 20px;
+line-height: 32px;
+font-weight: 600;
+}
+p {text-align:left;
+}
+.footer-copyright{
+text-align:center;
+	padding:40px;	
+}
+.login-or {
+position: relative;
+color: #aaa;
+margin-top: 10px;
+margin-bottom: 10px;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+.span-or {
+display: block;
+position: absolute;
+left: 50%;
+top: -2px;
+margin-left: -25px;
+background-color: #fff;
+width: 50px;
+text-align: center;
+}
+.hr-or {
+height: 1px;
+margin-top: 0px !important;
+margin-bottom: 0px !important;
+}
+.img-responsive { 
+width:100%;
+}
+.img-responsiveLogo { 
+width:70%;
+}
+.mainImage {
+margin-top: 70px;	
+}
+.myform form {
+margin-top: 100px;	
+	
+}
+.typewriter h2 {
+	text-align: left;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+ /* border-right: .15em solid #21c16c; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* scrolling effect */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+
+}
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #21c16c; }
+}
+.page-footer {
+	background-color: #292C31;
+		color: #62656A;
+}
+
+}
+@media screen and (max-width:480px){
+h1{
+font-size: 26px;
+}
+h2{
+font-size: 20px;
+}
+.img-responsive { 
+width:100%;
+}
+.img-responsiveLogo { 
+width:70%;
+}
+.header-title{
+margin: 2rem 0;
+}
+.sticky-top {
+background-color: white;
+position: -webkit-sticky;
+position: sticky;
+top: 0;
+z-index: 1020;
+}
+.mainImage {
+margin-top: 20px;	
+}
+p {text-align:left;
+}
+}
